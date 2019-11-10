@@ -1,3 +1,40 @@
-h1 {
-    color: red;
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#products > .col-md-4 {
+    margin-top: 50px;
+}
+
+#products_row {
+    width: 75%;
+}
+#cart {
+    float:right;
+}
+
+.card {
+    padding: 25px;
+}
+
+.card-img {
+    display: block;
+    margin: 25px auto;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.card-text {
+    min-height: 75px;
 }
